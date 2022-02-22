@@ -1,0 +1,19 @@
+#include <unistd.h>
+#include <stdio.h>
+
+void	ft_ft(int *nbr)
+{
+	*nbr = 42;
+}
+/*
+int	main(void)
+{
+	int	number;
+	int	*n0;
+
+	n0 = &number;
+	ft_ft(n0);
+	printf("number is equal to %d", number);
+	return (0);
+}
+*/
